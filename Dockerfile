@@ -1,6 +1,6 @@
 # VERSION 1.0
 # AUTHOR:         Jerome Guibert <jguibert@gmail.com>
-# DESCRIPTION:    Node image based on debian:node
+# DESCRIPTION:    dynamodb-local image based on oracle-jdk
 # TO_BUILD:       docker build --rm -t airdock/dynamodb-local .
 # SOURCE:         https://github.com/airdock-io/docker-dynamodb-local
 FROM airdock/oracle-jdk:latest
