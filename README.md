@@ -13,7 +13,6 @@ Purpose of this image is:
 ***Dependencies***: airdock/oracle-jdk:latest
 
 
-
 # Usage
 
 You should have already install [Docker](https://www.docker.com/).
@@ -25,28 +24,17 @@ Execute:
 
 # Change Log
 
-## TODO
+## Tag latest
 
-- add gnupg validation
-- add checksum validation
-
-## Tag latest or 12
-
-- add node.js 0.12
-- use user node:node
-- MIT license
-
-## Tag 10
-
-- add node.js 0.10
-- use user node:node
+- add DynamoDB-Local
+- use user java:java
 - MIT license
 
 # Build
 
 
 - Install "make" utility, and execute: `make build`
-- Or execute: 'docker build -t airdock/node:latest --rm .'
+- Or execute: 'docker build -t airdock/dynamodb-local:latest --rm .'
 
 See [Docker Project Tree](https://github.com/airdock-io/docker-base/wiki/Docker-Project-Tree) for more details.
 
