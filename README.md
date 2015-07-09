@@ -21,6 +21,9 @@ Execute:
 
 		docker run -d -p 8000:8000 --name node airdock/dynamodb-local
 
+Note:
+- Data file are localized under /srv/dynamodb-local
+
 
 # Change Log
 
