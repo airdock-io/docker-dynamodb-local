@@ -1,4 +1,4 @@
-# DynamoDB-local
+# DynamoDB-local [![](https://badge.imagelayers.io/airdock/dynamodb-local:latest.svg)](https://imagelayers.io/?images=airdock/dynamodb-local:latest 'Get your own badge on imagelayers.io')
 
 Docker Image for [DynamoDB-local](http://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Tools.DynamoDBLocal.html) based on airdock/oracle-jdk:latest
 
