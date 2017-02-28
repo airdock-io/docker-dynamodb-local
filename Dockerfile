@@ -6,7 +6,8 @@
 FROM airdock/oracle-jdk:latest
 MAINTAINER Jerome Guibert <jguibert@gmail.com>
 
- RUN mkdir -p /opt/dynamodb-local && mkdir -p /srv/dynamodb-local && \
+ RUN apt-get update -qq && apt-get install -y --no-install-recommends ca-certificates && \
+  mkdir -p /opt/dynamodb-local && mkdir -p /srv/dynamodb-local && \
   curl -L http://dynamodb-local.s3-website-us-west-2.amazonaws.com/dynamodb_local_latest.tar.gz | tar xvzf - -C /opt/dynamodb-local && \
   chown -R java:java /opt/dynamodb-local && chown -R java:java /srv/dynamodb-local
 
