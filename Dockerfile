@@ -4,7 +4,7 @@
 # TO_BUILD:       docker build --rm -t airdock/dynamodb-local .
 # SOURCE:         https://github.com/airdock-io/docker-dynamodb-local
 FROM airdock/oracle-jdk:latest
-MAINTAINER Jerome Guibert <jguibert@gmail.com>
+LABEL maintainer Jerome Guibert <jguibert@gmail.com>
 
  RUN apt-get update -qq && apt-get install -y --no-install-recommends ca-certificates && \
   mkdir -p /opt/dynamodb-local && mkdir -p /srv/dynamodb-local && \
