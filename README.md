@@ -1,5 +1,9 @@
 # DynamoDB-local [![](https://badge.imagelayers.io/airdock/dynamodb-local:latest.svg)](https://imagelayers.io/?images=airdock/dynamodb-local:latest 'Get your own badge on imagelayers.io')
 
+> This project is no longer actively maintained.
+>
+> Back in 2017, few open source project provide docker image, etc and our jobs had a real nice goal. Now (2023), all open source community is mature, provides tools and images more than we needs. Thanks to all members for their time and effort.
+
 Docker Image for [DynamoDB-local](http://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Tools.DynamoDBLocal.html) based on airdock/oracle-jdk:latest
 
 Purpose of this image is:
